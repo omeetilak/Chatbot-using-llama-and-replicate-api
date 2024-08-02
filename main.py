@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
 
 # Replicate Credentials
-replicate_api = "r8_EDlytXWXBE8bFTBXTkW2bdMByVKQJGV1wvN1D"
+replicate_api = "ENTER YOUR REPLICATE API KEY"
 os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
 with st.sidebar:
